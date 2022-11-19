@@ -64,7 +64,7 @@ export const ContributionCard = ({ initialValue, setResultValue }: ContributionC
     }, [monthlyContribution, timeInYears, interestRate, initialValue]);
 
     return (
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid gap-4 lg:grid-cols-2">
             <Card className="flex min-w-[40ch] flex-col gap-4">
                 <InputLine labelText="Monthly Contribution:">
                     <NumberInput

@@ -50,7 +50,7 @@ function App() {
     const [initialInvestment, setInitialInvestment] = useState<number>();
 
     return (
-        <main className="min-h-screen bg-light-blue">
+        <main className="min-h-screen bg-light-blue pb-8">
             <h1 className="text-very-dark-xxl py-8 text-center font-raleway text-3xl font-semibold tracking-wide">
                 Compound calculator
             </h1>

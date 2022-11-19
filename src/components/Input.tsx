@@ -12,7 +12,7 @@ export const NumberInput = ({ value, setValue, placeholder, size }: NumberInputP
     return (
         <input
             type={'text'}
-            inputMode={typeof value === 'number' ? 'decimal' : 'text'}
+            inputMode={'decimal'}
             value={value ?? ''}
             onChange={e => setValue(e.target.value)}
             placeholder={placeholder}
